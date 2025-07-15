@@ -58,9 +58,9 @@ StepChat_OBJC_FILES = \
 ADDITIONAL_LDFLAGS += -lEtoileXML -lXMPPKit -lAddresses -lssl -lcrypto -g \
         $(GUI_LIBS) $(FND_LIBS) $(OBJC_LIBS) $(SYSTEM_LIBS)
 ifeq ($(debugging), yes)
-ADDITIONAL_OBJCFLAGS += -DGNUSTEP -DNO_ATTRIBUTED_TITLES -std=c99 -Wno-import -werror -g -fobjc-arc
+ADDITIONAL_OBJCFLAGS += -DGNUSTEP -DNO_ATTRIBUTED_TITLES -std=c99 -Wno-import -Werror -g -fobjc-arc
 else
-ADDITIONAL_OBJCFLAGS += -DGNUSTEP -DNO_ATTRIBUTED_TITLES -std=c99 -Wno-import -werror -g -fobjc-arc -DDNDEBUG=1
+ADDITIONAL_OBJCFLAGS += -DGNUSTEP -DNO_ATTRIBUTED_TITLES -std=c99 -Wno-import -Werror -g -fobjc-arc -DDNDEBUG=1
 endif
 
 #
