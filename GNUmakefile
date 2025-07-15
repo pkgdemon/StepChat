@@ -21,7 +21,6 @@ StepChat_OBJC_FILES = \
     PresenceMenuController.m \
     RosterController.m \
     SCAccountInfoManager.m \
-    TRIdleTimer.m \
     TRUserDefaults.m \
     XMLLog.m \
     XMLLogWindowController.m
