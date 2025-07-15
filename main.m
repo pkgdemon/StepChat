@@ -8,12 +8,10 @@
 
 #import <Foundation/Foundation.h>
 #import <AppKit/AppKit.h>
-#import <Foundation/NSDebug.h>
-#import <XMPPKit/XMPPConnection.h>
-#import "JabberApp.h"
 
 int main(int argc, const char *argv[])
 {
-	
-    return NSApplicationMain(argc, argv);
+    @autoreleasepool {
+        return NSApplicationMain(argc, argv);
+    }
 }
