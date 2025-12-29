@@ -7,6 +7,7 @@ APP_NAME = StepChat
 StepChat_OBJC_FILES = \
     main.m \
     JabberApp.m \
+    EtoileSeparatorMenuItem.m \
     AccountWindowController.m \
     AddContactWindowController.m \
     ChatLogMenuController.m \
